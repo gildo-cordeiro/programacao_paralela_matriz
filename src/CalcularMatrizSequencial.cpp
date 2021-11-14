@@ -20,9 +20,9 @@ CalcularMatrizSequencial::CalcularMatrizSequencial(){}
  * @param m2 
  */
 void CalcularMatrizSequencial::calculate(int n1, int m1, int n2, int m2){
-    const std::string nameMatrix1 = "./files/M1.txt";
-    const std::string nameMatrix2 = "./files/M2.txt";
-    const std::string nameMatrix3 = "./files/RESULTADO.txt";
+    const std::string nameMatrix1 = "M1.txt";
+    const std::string nameMatrix2 = "M2.txt";
+    const std::string nameMatrix3 = "RESULTADO.txt";
     std::vector<std::vector<int>> firstMatrix, secondMatrix;
 
     Matrix mat1 = MatrixUtil::fill(n1, m1, firstMatrix);   

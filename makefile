@@ -46,6 +46,6 @@ $(OBJFOLDER):
 
 clean: $(OBJFOLDER)
 	@ rm -rf bin/*.o $(FILE)
-	@ rm -rf files/*.txt
+	@ rm ./*.txt
 
 .PHONY: all clean
