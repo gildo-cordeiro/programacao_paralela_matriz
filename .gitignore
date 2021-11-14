@@ -1,0 +1,7 @@
+.vscode
+**/*.o
+concordo
+bin/*
+files/*
+main
+.txt
